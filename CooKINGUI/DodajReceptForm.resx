@@ -1,0 +1,2031 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LNazivRecepta.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="LNazivRecepta.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Monotype Corsiva, 14.25pt, style=Italic</value>
+  </data>
+  <data name="LNazivRecepta.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 9</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LNazivRecepta.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="LNazivRecepta.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 22</value>
+  </data>
+  <data name="LNazivRecepta.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LNazivRecepta.Text" xml:space="preserve">
+    <value>Naziv recepta:</value>
+  </data>
+  <data name="&gt;&gt;LNazivRecepta.Name" xml:space="preserve">
+    <value>LNazivRecepta</value>
+  </data>
+  <data name="&gt;&gt;LNazivRecepta.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LNazivRecepta.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LNazivRecepta.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="TBImeRecepta.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Monotype Corsiva, 14.25pt, style=Italic</value>
+  </data>
+  <data name="TBImeRecepta.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 6</value>
+  </data>
+  <data name="TBImeRecepta.Size" type="System.Drawing.Size, System.Drawing">
+    <value>845, 29</value>
+  </data>
+  <data name="TBImeRecepta.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;TBImeRecepta.Name" xml:space="preserve">
+    <value>TBImeRecepta</value>
+  </data>
+  <data name="&gt;&gt;TBImeRecepta.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TBImeRecepta.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TBImeRecepta.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="LNamirnice.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LNamirnice.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Monotype Corsiva, 14.25pt, style=Italic</value>
+  </data>
+  <data name="LNamirnice.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LNamirnice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>256, 17</value>
+  </data>
+  <data name="LNamirnice.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="LNamirnice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 22</value>
+  </data>
+  <data name="LNamirnice.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="LNamirnice.Text" xml:space="preserve">
+    <value>Namirnice u Receptu:</value>
+  </data>
+  <data name="&gt;&gt;LNamirnice.Name" xml:space="preserve">
+    <value>LNamirnice</value>
+  </data>
+  <data name="&gt;&gt;LNamirnice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LNamirnice.Parent" xml:space="preserve">
+    <value>PanDodajNam</value>
+  </data>
+  <data name="&gt;&gt;LNamirnice.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="LBRezultatipretragenam.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Monotype Corsiva, 14.25pt, style=Italic</value>
+  </data>
+  <data name="LBRezultatipretragenam.ItemHeight" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="LBRezultatipretragenam.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 44</value>
+  </data>
+  <data name="LBRezultatipretragenam.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 180</value>
+  </data>
+  <data name="LBRezultatipretragenam.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;LBRezultatipretragenam.Name" xml:space="preserve">
+    <value>LBRezultatipretragenam</value>
+  </data>
+  <data name="&gt;&gt;LBRezultatipretragenam.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LBRezultatipretragenam.Parent" xml:space="preserve">
+    <value>PanDodajNam</value>
+  </data>
+  <data name="&gt;&gt;LBRezultatipretragenam.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="LDodajNamirnice.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LDodajNamirnice.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Monotype Corsiva, 14.25pt, style=Italic</value>
+  </data>
+  <data name="LDodajNamirnice.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LDodajNamirnice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 36</value>
+  </data>
+  <data name="LDodajNamirnice.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="LDodajNamirnice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="LDodajNamirnice.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="LDodajNamirnice.Text" xml:space="preserve">
+    <value>Dodaj namirnice</value>
+  </data>
+  <data name="&gt;&gt;LDodajNamirnice.Name" xml:space="preserve">
+    <value>LDodajNamirnice</value>
+  </data>
+  <data name="&gt;&gt;LDodajNamirnice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LDodajNamirnice.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LDodajNamirnice.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;BRefresh.Name" xml:space="preserve">
+    <value>BRefresh</value>
+  </data>
+  <data name="&gt;&gt;BRefresh.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BRefresh.Parent" xml:space="preserve">
+    <value>PanDodajNam</value>
+  </data>
+  <data name="&gt;&gt;BRefresh.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;LPrimjer.Name" xml:space="preserve">
+    <value>LPrimjer</value>
+  </data>
+  <data name="&gt;&gt;LPrimjer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LPrimjer.Parent" xml:space="preserve">
+    <value>PanDodajNam</value>
+  </data>
+  <data name="&gt;&gt;LPrimjer.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;LBNamUReceptu.Name" xml:space="preserve">
+    <value>LBNamUReceptu</value>
+  </data>
+  <data name="&gt;&gt;LBNamUReceptu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LBNamUReceptu.Parent" xml:space="preserve">
+    <value>PanDodajNam</value>
+  </data>
+  <data name="&gt;&gt;LBNamUReceptu.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;LKojajeMjera.Name" xml:space="preserve">
+    <value>LKojajeMjera</value>
+  </data>
+  <data name="&gt;&gt;LKojajeMjera.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LKojajeMjera.Parent" xml:space="preserve">
+    <value>PanDodajNam</value>
+  </data>
+  <data name="&gt;&gt;LKojajeMjera.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;LMjera.Name" xml:space="preserve">
+    <value>LMjera</value>
+  </data>
+  <data name="&gt;&gt;LMjera.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LMjera.Parent" xml:space="preserve">
+    <value>PanDodajNam</value>
+  </data>
+  <data name="&gt;&gt;LMjera.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;BKreirajNovuNam.Name" xml:space="preserve">
+    <value>BKreirajNovuNam</value>
+  </data>
+  <data name="&gt;&gt;BKreirajNovuNam.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BKreirajNovuNam.Parent" xml:space="preserve">
+    <value>PanDodajNam</value>
+  </data>
+  <data name="&gt;&gt;BKreirajNovuNam.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;BSearch.Name" xml:space="preserve">
+    <value>BSearch</value>
+  </data>
+  <data name="&gt;&gt;BSearch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BSearch.Parent" xml:space="preserve">
+    <value>PanDodajNam</value>
+  </data>
+  <data name="&gt;&gt;BSearch.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;LPojam.Name" xml:space="preserve">
+    <value>LPojam</value>
+  </data>
+  <data name="&gt;&gt;LPojam.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LPojam.Parent" xml:space="preserve">
+    <value>PanDodajNam</value>
+  </data>
+  <data name="&gt;&gt;LPojam.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;TBPojam.Name" xml:space="preserve">
+    <value>TBPojam</value>
+  </data>
+  <data name="&gt;&gt;TBPojam.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TBPojam.Parent" xml:space="preserve">
+    <value>PanDodajNam</value>
+  </data>
+  <data name="&gt;&gt;TBPojam.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;BSkiniNam.Name" xml:space="preserve">
+    <value>BSkiniNam</value>
+  </data>
+  <data name="&gt;&gt;BSkiniNam.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BSkiniNam.Parent" xml:space="preserve">
+    <value>PanDodajNam</value>
+  </data>
+  <data name="&gt;&gt;BSkiniNam.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;BDodajNam.Name" xml:space="preserve">
+    <value>BDodajNam</value>
+  </data>
+  <data name="&gt;&gt;BDodajNam.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BDodajNam.Parent" xml:space="preserve">
+    <value>PanDodajNam</value>
+  </data>
+  <data name="&gt;&gt;BDodajNam.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;TBKolicina.Name" xml:space="preserve">
+    <value>TBKolicina</value>
+  </data>
+  <data name="&gt;&gt;TBKolicina.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TBKolicina.Parent" xml:space="preserve">
+    <value>PanDodajNam</value>
+  </data>
+  <data name="&gt;&gt;TBKolicina.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;LKolicina.Name" xml:space="preserve">
+    <value>LKolicina</value>
+  </data>
+  <data name="&gt;&gt;LKolicina.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LKolicina.Parent" xml:space="preserve">
+    <value>PanDodajNam</value>
+  </data>
+  <data name="&gt;&gt;LKolicina.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="PanDodajNam.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 61</value>
+  </data>
+  <data name="PanDodajNam.Size" type="System.Drawing.Size, System.Drawing">
+    <value>492, 331</value>
+  </data>
+  <data name="PanDodajNam.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;PanDodajNam.Name" xml:space="preserve">
+    <value>PanDodajNam</value>
+  </data>
+  <data name="&gt;&gt;PanDodajNam.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PanDodajNam.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;PanDodajNam.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="BRefresh.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="BRefresh.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Consolas, 11.25pt</value>
+  </data>
+  <data name="BRefresh.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAK
+        HQAACh0BA6axZQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAHLSURBVDhPnVS9
+        LwRBHF0a8ScgRCEU7M4JCpEIISS+Iv4BHxEdOzMJhYIrJAqJRPgnNCSipvK5s0cvUWnVNHfnzd7bc2Rv
+        XbzkV8yb997O/HZ/6/yFnpzq90K5N3irGkn9D5kn2e6FatMzqoh6zRg5za3aIYyagPmeIT/KNeqsz8gm
+        SlNQzNaLUB3CVPgdwvrAg3Y6XtYb6KgOBB1XGPM4xSlqn+sr8aA7KcXp5Tq4Iy5/wg30FE223oXRoxFv
+        lIv1olN06iIh4AZyK9a6gRon/Q0vUAEF+Uwgh0gnws35w9BFrcBtbkiXEL01PgknOiedCqujp9Bt/DbS
+        9ipyPg5zQ7VMOhWekauxB5/PLGmEIaAcht6RToUI9UzZE+ol0rZfei7eEIFcIZ0KHGCt7EEwaYzMo24F
+        WWpojT3DW75kWEE8qxbSJYC8izfxNkdIJ8LL6TGro/6e9DdE6E9y0zZ0mzSmwqmzPbHfm10y6D3WWl+k
+        +43SBOgNLtFLvwsh15Ep0Ce8Wj4OQiVPQCXs7OG3swvxZ4WxsnBFfWBnmZbq6M1tNWMiLhJCbN0ljtBf
+        EKFcgPktCsF/zU4Kt/4H+4fFd5jNPPoDpKrAcb4AwSJIaLaiz+4AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="BRefresh.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BRefresh.Location" type="System.Drawing.Point, System.Drawing">
+    <value>189, 13</value>
+  </data>
+  <data name="BRefresh.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 25</value>
+  </data>
+  <data name="BRefresh.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;BRefresh.Name" xml:space="preserve">
+    <value>BRefresh</value>
+  </data>
+  <data name="&gt;&gt;BRefresh.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BRefresh.Parent" xml:space="preserve">
+    <value>PanDodajNam</value>
+  </data>
+  <data name="&gt;&gt;BRefresh.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LPrimjer.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LPrimjer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Monotype Corsiva, 14.25pt, style=Italic</value>
+  </data>
+  <data name="LPrimjer.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LPrimjer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 233</value>
+  </data>
+  <data name="LPrimjer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 22</value>
+  </data>
+  <data name="LPrimjer.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="LPrimjer.Text" xml:space="preserve">
+    <value>(npr. 1,5)</value>
+  </data>
+  <data name="&gt;&gt;LPrimjer.Name" xml:space="preserve">
+    <value>LPrimjer</value>
+  </data>
+  <data name="&gt;&gt;LPrimjer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LPrimjer.Parent" xml:space="preserve">
+    <value>PanDodajNam</value>
+  </data>
+  <data name="&gt;&gt;LPrimjer.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LBNamUReceptu.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Monotype Corsiva, 14.25pt, style=Italic</value>
+  </data>
+  <data name="LBNamUReceptu.ItemHeight" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="LBNamUReceptu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>259, 44</value>
+  </data>
+  <data name="LBNamUReceptu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 180</value>
+  </data>
+  <data name="LBNamUReceptu.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;LBNamUReceptu.Name" xml:space="preserve">
+    <value>LBNamUReceptu</value>
+  </data>
+  <data name="&gt;&gt;LBNamUReceptu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LBNamUReceptu.Parent" xml:space="preserve">
+    <value>PanDodajNam</value>
+  </data>
+  <data name="&gt;&gt;LBNamUReceptu.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="LKojajeMjera.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LKojajeMjera.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Monotype Corsiva, 14.25pt, style=Italic</value>
+  </data>
+  <data name="LKojajeMjera.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LKojajeMjera.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 266</value>
+  </data>
+  <data name="LKojajeMjera.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 22</value>
+  </data>
+  <data name="LKojajeMjera.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="LKojajeMjera.Text" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="&gt;&gt;LKojajeMjera.Name" xml:space="preserve">
+    <value>LKojajeMjera</value>
+  </data>
+  <data name="&gt;&gt;LKojajeMjera.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LKojajeMjera.Parent" xml:space="preserve">
+    <value>PanDodajNam</value>
+  </data>
+  <data name="&gt;&gt;LKojajeMjera.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="LMjera.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LMjera.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Monotype Corsiva, 14.25pt, style=Italic</value>
+  </data>
+  <data name="LMjera.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LMjera.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 266</value>
+  </data>
+  <data name="LMjera.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 22</value>
+  </data>
+  <data name="LMjera.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="LMjera.Text" xml:space="preserve">
+    <value>Mjera:</value>
+  </data>
+  <data name="&gt;&gt;LMjera.Name" xml:space="preserve">
+    <value>LMjera</value>
+  </data>
+  <data name="&gt;&gt;LMjera.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LMjera.Parent" xml:space="preserve">
+    <value>PanDodajNam</value>
+  </data>
+  <data name="&gt;&gt;LMjera.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="BKreirajNovuNam.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="BKreirajNovuNam.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Mass Effect Game 123, 8.25pt</value>
+  </data>
+  <data name="BKreirajNovuNam.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BKreirajNovuNam.Location" type="System.Drawing.Point, System.Drawing">
+    <value>322, 282</value>
+  </data>
+  <data name="BKreirajNovuNam.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 37</value>
+  </data>
+  <data name="BKreirajNovuNam.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="BKreirajNovuNam.Text" xml:space="preserve">
+    <value>Kreiraj novu namirnicu</value>
+  </data>
+  <data name="&gt;&gt;BKreirajNovuNam.Name" xml:space="preserve">
+    <value>BKreirajNovuNam</value>
+  </data>
+  <data name="&gt;&gt;BKreirajNovuNam.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BKreirajNovuNam.Parent" xml:space="preserve">
+    <value>PanDodajNam</value>
+  </data>
+  <data name="&gt;&gt;BKreirajNovuNam.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="BSearch.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="BSearch.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Consolas, 11.25pt</value>
+  </data>
+  <data name="BSearch.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAF
+        QgAABUIBPkl9CAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAGrSURBVDhPtZM9
+        S8NAHMajfgHRQcVBHcSXJncpDoI6+QUUsYiC4OAigrlc62xHB1c3J8FBR1/wC0hpm6R1cBB0EhQVqSI6
+        WKXxufaPUNKgFv3BA+G5J0/uf9dq/0psL9bEHDHLXHuHOXaqLM/ehjet+clGin0PyyR6UJKHfMO1b1C0
+        j+cD6E55UJqf2p0UD2fIFR0IX0EF7skZzdcaaElTOzI8uYC1Z+aKy/7Mciut1AY72UX4lTsySlYA0xGj
+        yLxBW2QFUVtHoMRde52sUJDbhIqRlN1CVjXcEfMIqHMyyApFz8qRSlZMklUNziGhAmZeNJMVCk2By5BL
+        ZFWDssVK2UovWaGoM6Up5siqJpqLD6oAd6UkKxTmiTVkS5iim6wgCJxAt5HsajtZAfDRLmQeoSOyakPb
+        f4HOdE8MkP1FJCc5bvsC677h2BNkh4MRxhEuQO84k8PySI5M4p9wDO9DFZEeVDm9Fo6ettoQ3oDOIfUD
+        VbvNqRvnbnwMz/dQudDMCpNeqw/mWH0ovqbCJ+Zaw7RUH39eqHsWQ5Eaucg9MUV2/ajCH93s79G0T8TD
+        6w/KOAmgAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="BSearch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>153, 14</value>
+  </data>
+  <data name="BSearch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 25</value>
+  </data>
+  <data name="BSearch.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;BSearch.Name" xml:space="preserve">
+    <value>BSearch</value>
+  </data>
+  <data name="&gt;&gt;BSearch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BSearch.Parent" xml:space="preserve">
+    <value>PanDodajNam</value>
+  </data>
+  <data name="&gt;&gt;BSearch.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="LPojam.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LPojam.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Monotype Corsiva, 14.25pt, style=Italic</value>
+  </data>
+  <data name="LPojam.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 17</value>
+  </data>
+  <data name="LPojam.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 22</value>
+  </data>
+  <data name="LPojam.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="LPojam.Text" xml:space="preserve">
+    <value>Pojam:</value>
+  </data>
+  <data name="&gt;&gt;LPojam.Name" xml:space="preserve">
+    <value>LPojam</value>
+  </data>
+  <data name="&gt;&gt;LPojam.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LPojam.Parent" xml:space="preserve">
+    <value>PanDodajNam</value>
+  </data>
+  <data name="&gt;&gt;LPojam.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="TBPojam.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Monotype Corsiva, 12pt, style=Italic</value>
+  </data>
+  <data name="TBPojam.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 14</value>
+  </data>
+  <data name="TBPojam.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 25</value>
+  </data>
+  <data name="TBPojam.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;TBPojam.Name" xml:space="preserve">
+    <value>TBPojam</value>
+  </data>
+  <data name="&gt;&gt;TBPojam.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TBPojam.Parent" xml:space="preserve">
+    <value>PanDodajNam</value>
+  </data>
+  <data name="&gt;&gt;TBPojam.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="BSkiniNam.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="BSkiniNam.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAB
+        pgAAAaYBesieuwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAI2SURBVEhL7ZbN
+        StxQFMdDla4mN7F+vECLInbXUmmX3foAWqG7voAfb+BCEESsCEKrMsVVX0JoEsVdoX7Q3aDjN2Jy40gy
+        2rk9d+YMmZl7EjNDUSj+4LfKOec/994Yr/ZIEuK71uZtsDeubQx7tjlW1mEjnsUG5TMs+3f49rMBCPvi
+        2cYpKGI8cx1j2Xc6XmJb6/AtvdOz2SoMvW0ISfIP9GT5ut6FY5oDfv1z2ModYnA6LWMXjuUFjkuHv5np
+        h+ZLZVjzuvKYcGwy53aXDlu1TQxpUbYtZ+L4ePAlIgZQdojiyTdR2B0hnkW6lrGC42m4pfdCYbGxkRZC
+        T9dEmVJ4V/gNt/U+jFGB1X4lmghNER4tVUIl5eBhoq5Wtoox9QihPYGCY7VBNTiYw0Tg7tVWPSM/MvLr
+        QxQrBgezmAiUihD6gayj5I7+FuMiKp9BuqFqsD+DiYAM3Rsl6+JloxgXwS1zgi6uGObnMRFIdaaq3DYm
+        MS6CO+Y4VVw12J/GVABWe733kaxLUi4O4yLK/2WI4lrrV91KOLHVaV+uMP8Zk4Emw/mG/g7jIsS61g4P
+        LxqLKcP8AiYD6cNdsaM9xbh6YCuyRANp/Znfiuvfn8i6SHMNY1TgT+o1FJXUJtrwcBFzC6Lwa4isQUvk
+        NtciP+hEY6xBbkpc/XxPPotkWRwfj/8j0w3FObW5ZXO+k+nB8ck8yEWgCmz5KzjzPDEspexQvjM4rjke
+        5LJXy71fbxu59wv9f4Sm/QW7tda4y02RAQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="BSkiniNam.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BSkiniNam.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 141</value>
+  </data>
+  <data name="BSkiniNam.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 34</value>
+  </data>
+  <data name="BSkiniNam.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;BSkiniNam.Name" xml:space="preserve">
+    <value>BSkiniNam</value>
+  </data>
+  <data name="&gt;&gt;BSkiniNam.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BSkiniNam.Parent" xml:space="preserve">
+    <value>PanDodajNam</value>
+  </data>
+  <data name="&gt;&gt;BSkiniNam.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="BDodajNam.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="BDodajNam.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAB
+        pgAAAaYBesieuwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAI8SURBVEhL7ZbN
+        StxQFMeDLa4mH1brC1Qqpe6Uil122wfwA7rrC7T1DbooCEVUBGGqw4irvoTQJEp3BXWku8GP6lTEyY0Z
+        xjjO7bnDmckk9yTz0aJQ/MMPhuR/zj/3JJNc5V5J4l+VB46pjTu2NuVYxjtB0dInnS3thTiHtn8n1+4b
+        Kdr6qmPpvwEeQwEuIu1aj55jWfdim+qAY2lZaHoTCUmiAjUZ9l3txzadCa5+DBocE43bAuqPiqY+iu3a
+        kxgXFBejzbrgwt1OPcO2yXLt1CAU5CMN/oa8+y31GNvHC+8p1aDG5Y9XvJz/SJ6LA0a+hu1psS31JRir
+        0cI63s5rXq14XOjqeJn0xFAVzwzGyIL/5QZR1KD08y2H5FqwUPngE+mj0bIYExbfU3rB0PKBKu2/gXAf
+        o2HlR0ukj+CcbyoPMS4QjpkqkJDDF0mfBLz1MC4QjGKGNMcghy+QvhDwqsW4QMw0PpDmBKLhre45s433
+        GBeIWfosZU7Cy01C8BXGtl61WBzGBep01N7+TGS1c6SvGfElw7hAzFYnKDOFl5sOhx5+Jn0S1MNV+9Ym
+        f/ZqeLmp0HjLh/Okj+CEc6UH48KCcWeIggbSPf21AscNyUcBY/6CMbKYpQ6D6TpaVKd5tX5hA471SZ4Y
+        fGaqTzGGlnihE4UNRLh/ug6/2w4Vq01j+3idWQMqjHyXatAd2q7oie2TdScbgbpg5zjkmHqOaNYmxh5s
+        EJ9gu850J5u9Zt369jaqW9/Q/0dSlD9Vf9a4WZjxswAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="BDodajNam.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 78</value>
+  </data>
+  <data name="BDodajNam.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 34</value>
+  </data>
+  <data name="BDodajNam.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;BDodajNam.Name" xml:space="preserve">
+    <value>BDodajNam</value>
+  </data>
+  <data name="&gt;&gt;BDodajNam.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BDodajNam.Parent" xml:space="preserve">
+    <value>PanDodajNam</value>
+  </data>
+  <data name="&gt;&gt;BDodajNam.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="TBKolicina.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Monotype Corsiva, 12pt, style=Italic</value>
+  </data>
+  <data name="TBKolicina.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 233</value>
+  </data>
+  <data name="TBKolicina.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 25</value>
+  </data>
+  <data name="TBKolicina.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;TBKolicina.Name" xml:space="preserve">
+    <value>TBKolicina</value>
+  </data>
+  <data name="&gt;&gt;TBKolicina.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TBKolicina.Parent" xml:space="preserve">
+    <value>PanDodajNam</value>
+  </data>
+  <data name="&gt;&gt;TBKolicina.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="LKolicina.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LKolicina.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Monotype Corsiva, 14.25pt, style=Italic</value>
+  </data>
+  <data name="LKolicina.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 233</value>
+  </data>
+  <data name="LKolicina.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 22</value>
+  </data>
+  <data name="LKolicina.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="LKolicina.Text" xml:space="preserve">
+    <value>Kolicina:</value>
+  </data>
+  <data name="&gt;&gt;LKolicina.Name" xml:space="preserve">
+    <value>LKolicina</value>
+  </data>
+  <data name="&gt;&gt;LKolicina.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LKolicina.Parent" xml:space="preserve">
+    <value>PanDodajNam</value>
+  </data>
+  <data name="&gt;&gt;LKolicina.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="LDodajKorake.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LDodajKorake.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Monotype Corsiva, 14.25pt, style=Italic</value>
+  </data>
+  <data name="LDodajKorake.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LDodajKorake.Location" type="System.Drawing.Point, System.Drawing">
+    <value>506, 38</value>
+  </data>
+  <data name="LDodajKorake.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="LDodajKorake.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 22</value>
+  </data>
+  <data name="LDodajKorake.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="LDodajKorake.Text" xml:space="preserve">
+    <value>Dodaj Korake</value>
+  </data>
+  <data name="&gt;&gt;LDodajKorake.Name" xml:space="preserve">
+    <value>LDodajKorake</value>
+  </data>
+  <data name="&gt;&gt;LDodajKorake.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LDodajKorake.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LDodajKorake.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="columnHeader1.Text" xml:space="preserve">
+    <value>Redni broj</value>
+  </data>
+  <data name="columnHeader1.Width" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="columnHeader2.Text" xml:space="preserve">
+    <value>Opis</value>
+  </data>
+  <data name="columnHeader2.Width" type="System.Int32, mscorlib">
+    <value>169</value>
+  </data>
+  <data name="columnHeader3.Text" xml:space="preserve">
+    <value>Naputak</value>
+  </data>
+  <data name="columnHeader3.Width" type="System.Int32, mscorlib">
+    <value>152</value>
+  </data>
+  <data name="columnHeader4.Text" xml:space="preserve">
+    <value>Vrijeme izvođenja</value>
+  </data>
+  <data name="columnHeader4.Width" type="System.Int32, mscorlib">
+    <value>153</value>
+  </data>
+  <data name="LWSviKoraci.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Monotype Corsiva, 12pt, style=Italic</value>
+  </data>
+  <data name="LWSviKoraci.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 192</value>
+  </data>
+  <data name="LWSviKoraci.Size" type="System.Drawing.Size, System.Drawing">
+    <value>447, 181</value>
+  </data>
+  <data name="LWSviKoraci.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;LWSviKoraci.Name" xml:space="preserve">
+    <value>LWSviKoraci</value>
+  </data>
+  <data name="&gt;&gt;LWSviKoraci.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LWSviKoraci.Parent" xml:space="preserve">
+    <value>PDodajKorake</value>
+  </data>
+  <data name="&gt;&gt;LWSviKoraci.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TBVrijemeIzvodenja.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Monotype Corsiva, 12pt, style=Italic</value>
+  </data>
+  <data name="TBVrijemeIzvodenja.Location" type="System.Drawing.Point, System.Drawing">
+    <value>211, 118</value>
+  </data>
+  <data name="TBVrijemeIzvodenja.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 25</value>
+  </data>
+  <data name="TBVrijemeIzvodenja.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="TBVrijemeIzvodenja.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TBVrijemeIzvodenja.Name" xml:space="preserve">
+    <value>TBVrijemeIzvodenja</value>
+  </data>
+  <data name="&gt;&gt;TBVrijemeIzvodenja.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TBVrijemeIzvodenja.Parent" xml:space="preserve">
+    <value>PDodajKorake</value>
+  </data>
+  <data name="&gt;&gt;TBVrijemeIzvodenja.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LVrijemeIzvodenja.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LVrijemeIzvodenja.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Monotype Corsiva, 14.25pt, style=Italic</value>
+  </data>
+  <data name="LVrijemeIzvodenja.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LVrijemeIzvodenja.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 121</value>
+  </data>
+  <data name="LVrijemeIzvodenja.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="LVrijemeIzvodenja.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 22</value>
+  </data>
+  <data name="LVrijemeIzvodenja.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="LVrijemeIzvodenja.Text" xml:space="preserve">
+    <value>Vrijeme izvođenja(min):</value>
+  </data>
+  <data name="&gt;&gt;LVrijemeIzvodenja.Name" xml:space="preserve">
+    <value>LVrijemeIzvodenja</value>
+  </data>
+  <data name="&gt;&gt;LVrijemeIzvodenja.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LVrijemeIzvodenja.Parent" xml:space="preserve">
+    <value>PDodajKorake</value>
+  </data>
+  <data name="&gt;&gt;LVrijemeIzvodenja.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="TBNaputak.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Monotype Corsiva, 12pt, style=Italic</value>
+  </data>
+  <data name="TBNaputak.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 86</value>
+  </data>
+  <data name="TBNaputak.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TBNaputak.Size" type="System.Drawing.Size, System.Drawing">
+    <value>447, 26</value>
+  </data>
+  <data name="TBNaputak.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;TBNaputak.Name" xml:space="preserve">
+    <value>TBNaputak</value>
+  </data>
+  <data name="&gt;&gt;TBNaputak.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TBNaputak.Parent" xml:space="preserve">
+    <value>PDodajKorake</value>
+  </data>
+  <data name="&gt;&gt;TBNaputak.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="LNaputak.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LNaputak.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Monotype Corsiva, 14.25pt, style=Italic</value>
+  </data>
+  <data name="LNaputak.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LNaputak.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 65</value>
+  </data>
+  <data name="LNaputak.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="LNaputak.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 22</value>
+  </data>
+  <data name="LNaputak.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="LNaputak.Text" xml:space="preserve">
+    <value>Naputak za izvođenje koraka:</value>
+  </data>
+  <data name="&gt;&gt;LNaputak.Name" xml:space="preserve">
+    <value>LNaputak</value>
+  </data>
+  <data name="&gt;&gt;LNaputak.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LNaputak.Parent" xml:space="preserve">
+    <value>PDodajKorake</value>
+  </data>
+  <data name="&gt;&gt;LNaputak.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="BObrisiOdabrano.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="BObrisiOdabrano.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Mass Effect Game 123, 8.999999pt</value>
+  </data>
+  <data name="BObrisiOdabrano.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BObrisiOdabrano.Location" type="System.Drawing.Point, System.Drawing">
+    <value>164, 379</value>
+  </data>
+  <data name="BObrisiOdabrano.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 37</value>
+  </data>
+  <data name="BObrisiOdabrano.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="BObrisiOdabrano.Text" xml:space="preserve">
+    <value>Obrisi odabrano</value>
+  </data>
+  <data name="&gt;&gt;BObrisiOdabrano.Name" xml:space="preserve">
+    <value>BObrisiOdabrano</value>
+  </data>
+  <data name="&gt;&gt;BObrisiOdabrano.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BObrisiOdabrano.Parent" xml:space="preserve">
+    <value>PDodajKorake</value>
+  </data>
+  <data name="&gt;&gt;BObrisiOdabrano.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="BDodajKorak.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="BDodajKorak.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Mass Effect Game 123, 9.75pt</value>
+  </data>
+  <data name="BDodajKorak.Location" type="System.Drawing.Point, System.Drawing">
+    <value>164, 149</value>
+  </data>
+  <data name="BDodajKorak.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 37</value>
+  </data>
+  <data name="BDodajKorak.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="BDodajKorak.Text" xml:space="preserve">
+    <value>Dodaj korak</value>
+  </data>
+  <data name="&gt;&gt;BDodajKorak.Name" xml:space="preserve">
+    <value>BDodajKorak</value>
+  </data>
+  <data name="&gt;&gt;BDodajKorak.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BDodajKorak.Parent" xml:space="preserve">
+    <value>PDodajKorake</value>
+  </data>
+  <data name="&gt;&gt;BDodajKorak.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="TBUpisiKorak.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Monotype Corsiva, 12pt, style=Italic</value>
+  </data>
+  <data name="TBUpisiKorak.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 34</value>
+  </data>
+  <data name="TBUpisiKorak.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TBUpisiKorak.Size" type="System.Drawing.Size, System.Drawing">
+    <value>447, 26</value>
+  </data>
+  <data name="TBUpisiKorak.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;TBUpisiKorak.Name" xml:space="preserve">
+    <value>TBUpisiKorak</value>
+  </data>
+  <data name="&gt;&gt;TBUpisiKorak.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TBUpisiKorak.Parent" xml:space="preserve">
+    <value>PDodajKorake</value>
+  </data>
+  <data name="&gt;&gt;TBUpisiKorak.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lUpisiKorak.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lUpisiKorak.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Monotype Corsiva, 14.25pt, style=Italic</value>
+  </data>
+  <data name="lUpisiKorak.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lUpisiKorak.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 13</value>
+  </data>
+  <data name="lUpisiKorak.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lUpisiKorak.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="lUpisiKorak.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lUpisiKorak.Text" xml:space="preserve">
+    <value>Upisi Korak:</value>
+  </data>
+  <data name="&gt;&gt;lUpisiKorak.Name" xml:space="preserve">
+    <value>lUpisiKorak</value>
+  </data>
+  <data name="&gt;&gt;lUpisiKorak.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lUpisiKorak.Parent" xml:space="preserve">
+    <value>PDodajKorake</value>
+  </data>
+  <data name="&gt;&gt;lUpisiKorak.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="PDodajKorake.Location" type="System.Drawing.Point, System.Drawing">
+    <value>510, 61</value>
+  </data>
+  <data name="PDodajKorake.Size" type="System.Drawing.Size, System.Drawing">
+    <value>478, 421</value>
+  </data>
+  <data name="PDodajKorake.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;PDodajKorake.Name" xml:space="preserve">
+    <value>PDodajKorake</value>
+  </data>
+  <data name="&gt;&gt;PDodajKorake.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PDodajKorake.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;PDodajKorake.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="LVrstaJela.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LVrstaJela.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Monotype Corsiva, 14.25pt, style=Italic</value>
+  </data>
+  <data name="LVrstaJela.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LVrstaJela.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 400</value>
+  </data>
+  <data name="LVrstaJela.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="LVrstaJela.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 22</value>
+  </data>
+  <data name="LVrstaJela.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="LVrstaJela.Text" xml:space="preserve">
+    <value>Vrsta jela:</value>
+  </data>
+  <data name="&gt;&gt;LVrstaJela.Name" xml:space="preserve">
+    <value>LVrstaJela</value>
+  </data>
+  <data name="&gt;&gt;LVrstaJela.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LVrstaJela.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LVrstaJela.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="CBVrstaJela.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="CBVrstaJela.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Monotype Corsiva, 12pt, style=Italic</value>
+  </data>
+  <data name="CBVrstaJela.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 395</value>
+  </data>
+  <data name="CBVrstaJela.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 26</value>
+  </data>
+  <data name="CBVrstaJela.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;CBVrstaJela.Name" xml:space="preserve">
+    <value>CBVrstaJela</value>
+  </data>
+  <data name="&gt;&gt;CBVrstaJela.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CBVrstaJela.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CBVrstaJela.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="LPodvrstaJela.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LPodvrstaJela.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Monotype Corsiva, 14.25pt, style=Italic</value>
+  </data>
+  <data name="LPodvrstaJela.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LPodvrstaJela.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 430</value>
+  </data>
+  <data name="LPodvrstaJela.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="LPodvrstaJela.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 22</value>
+  </data>
+  <data name="LPodvrstaJela.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="LPodvrstaJela.Text" xml:space="preserve">
+    <value>Podvrsta jela:</value>
+  </data>
+  <data name="&gt;&gt;LPodvrstaJela.Name" xml:space="preserve">
+    <value>LPodvrstaJela</value>
+  </data>
+  <data name="&gt;&gt;LPodvrstaJela.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LPodvrstaJela.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LPodvrstaJela.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="CBPodvrstaJela.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="CBPodvrstaJela.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Monotype Corsiva, 12pt, style=Italic</value>
+  </data>
+  <data name="CBPodvrstaJela.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 427</value>
+  </data>
+  <data name="CBPodvrstaJela.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 26</value>
+  </data>
+  <data name="CBPodvrstaJela.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;CBPodvrstaJela.Name" xml:space="preserve">
+    <value>CBPodvrstaJela</value>
+  </data>
+  <data name="&gt;&gt;CBPodvrstaJela.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CBPodvrstaJela.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CBPodvrstaJela.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="LVrijemePripreme.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LVrijemePripreme.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Monotype Corsiva, 14.25pt, style=Italic</value>
+  </data>
+  <data name="LVrijemePripreme.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LVrijemePripreme.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 463</value>
+  </data>
+  <data name="LVrijemePripreme.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="LVrijemePripreme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 22</value>
+  </data>
+  <data name="LVrijemePripreme.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="LVrijemePripreme.Text" xml:space="preserve">
+    <value>Vrijeme pripreme:</value>
+  </data>
+  <data name="&gt;&gt;LVrijemePripreme.Name" xml:space="preserve">
+    <value>LVrijemePripreme</value>
+  </data>
+  <data name="&gt;&gt;LVrijemePripreme.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LVrijemePripreme.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LVrijemePripreme.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="TBVrijemePripreme.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Monotype Corsiva, 12pt, style=Italic</value>
+  </data>
+  <data name="TBVrijemePripreme.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 463</value>
+  </data>
+  <data name="TBVrijemePripreme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 25</value>
+  </data>
+  <data name="TBVrijemePripreme.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="TBVrijemePripreme.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TBVrijemePripreme.Name" xml:space="preserve">
+    <value>TBVrijemePripreme</value>
+  </data>
+  <data name="&gt;&gt;TBVrijemePripreme.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TBVrijemePripreme.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TBVrijemePripreme.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="LMin.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LMin.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Monotype Corsiva, 14.25pt, style=Italic</value>
+  </data>
+  <data name="LMin.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LMin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>219, 463</value>
+  </data>
+  <data name="LMin.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="LMin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 22</value>
+  </data>
+  <data name="LMin.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="LMin.Text" xml:space="preserve">
+    <value>(min)</value>
+  </data>
+  <data name="&gt;&gt;LMin.Name" xml:space="preserve">
+    <value>LMin</value>
+  </data>
+  <data name="&gt;&gt;LMin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LMin.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LMin.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="CBTezina.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="CBTezina.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Monotype Corsiva, 12pt, style=Italic</value>
+  </data>
+  <data name="CBTezina.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 494</value>
+  </data>
+  <data name="CBTezina.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 26</value>
+  </data>
+  <data name="CBTezina.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;CBTezina.Name" xml:space="preserve">
+    <value>CBTezina</value>
+  </data>
+  <data name="&gt;&gt;CBTezina.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CBTezina.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CBTezina.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="LTezina.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LTezina.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Monotype Corsiva, 14.25pt, style=Italic</value>
+  </data>
+  <data name="LTezina.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LTezina.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 494</value>
+  </data>
+  <data name="LTezina.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="LTezina.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 22</value>
+  </data>
+  <data name="LTezina.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="LTezina.Text" xml:space="preserve">
+    <value>Tezina pripreme:</value>
+  </data>
+  <data name="&gt;&gt;LTezina.Name" xml:space="preserve">
+    <value>LTezina</value>
+  </data>
+  <data name="&gt;&gt;LTezina.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LTezina.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LTezina.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="LSavjet.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LSavjet.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Monotype Corsiva, 14.25pt, style=Italic</value>
+  </data>
+  <data name="LSavjet.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LSavjet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 520</value>
+  </data>
+  <data name="LSavjet.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="LSavjet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 22</value>
+  </data>
+  <data name="LSavjet.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="LSavjet.Text" xml:space="preserve">
+    <value>Savjet:</value>
+  </data>
+  <data name="&gt;&gt;LSavjet.Name" xml:space="preserve">
+    <value>LSavjet</value>
+  </data>
+  <data name="&gt;&gt;LSavjet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LSavjet.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LSavjet.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="TBSavjet.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Monotype Corsiva, 12pt, style=Italic</value>
+  </data>
+  <data name="TBSavjet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 545</value>
+  </data>
+  <data name="TBSavjet.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TBSavjet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>281, 93</value>
+  </data>
+  <data name="TBSavjet.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;TBSavjet.Name" xml:space="preserve">
+    <value>TBSavjet</value>
+  </data>
+  <data name="&gt;&gt;TBSavjet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TBSavjet.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TBSavjet.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="BSave.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="BSave.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Mass Effect Game 123, 11.249999pt</value>
+  </data>
+  <data name="BSave.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAB
+        CwAAAQsBxONeLwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAFKSURBVDhPYxj8
+        wNjYOKs6S/XwwQUSjw8ulH+yZUv/N3Q8Zd78JxNmL3icmp17BKh+mqWlJSdUOyoASs5vL1b5//EI//+3
+        R6T+b9h3FAXHZRf99wmPA7Nzi8v+A9WD8BFtbW0eqBEIQMgwv6jE/2bOnuiG/TcyMuqDGoEA5BoG0gc1
+        AgFAgkXJ6mDD3h8W+b9l304UwybMXfK/Y9ocMDsuOY2wYSBJW2vD/w62hv9dHE3/e7hZw7Gjg/V/G1vb
+        /1ZW1sgG4TeMDIzdMEMP6/+6pd5EY0N3K9yG6WW6/1dfl/A/ZFfj/5jd7TgxSB6kDqSeoGE5+yf/rzg0
+        BycGyRNt2ISTa/8vOrMbJwbJE22Y89bS/57bKnFikDzRhjUfXfp/yskNODFInqBh+lGO/zWnhhONQeqx
+        GgbMYwkmJiYzScUgfVAjBi1gYAAAcpjZzpkJUiUAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="BSave.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="BSave.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>660, 596</value>
+  </data>
+  <data name="BSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 42</value>
+  </data>
+  <data name="BSave.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="BSave.Text" xml:space="preserve">
+    <value>Spremi</value>
+  </data>
+  <data name="&gt;&gt;BSave.Name" xml:space="preserve">
+    <value>BSave</value>
+  </data>
+  <data name="&gt;&gt;BSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BSave.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BSave.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="BOdustani.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="BOdustani.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Mass Effect Game 123, 11.249999pt</value>
+  </data>
+  <data name="BOdustani.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAB
+        CwAAAQsBxONeLwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAFhSURBVDhPvVTd
+        KoRRABxypeUFKOUN8Aa05IbyDHgOUi64wbK5YKO8hxtKceNvrdYdKbyDNfMZOWfPfmzI1HQ6M3NmT+fs
+        +fBvOAf6r4Epcl7jLdBnq31w4VgVOOb4SjYCan5Ejjqaj0Ogi8ENL7wnF1havAFGLoFxzhfJB/lXQEl5
+        L03BhZsKkpUzoNtyBHoFFlVduGU5Bs1JBVi4ZylBA+hkZse5msei7U9QPKX5SBYsRQiLyFId6OX4RJ44
+        8o4LYFAhbnvJUgQX7Sqjo+C8Qzrny9YGsqDAw52xmGw5r0jgj09IJ6ctZeKcxSFLGcIiHXZYJLB8WB7H
+        WUutd/ZdkdByZ81n1k6RQD89M4FCdpu+pYpCZDmvqAb00E9vU6CY/c/IusfcIoH+gXLh0USgue2iO+3Q
+        cgR6egH7zq1bTuG3WXbwmVzRmwze5ir5Yn/ty7f5AQZ//9Voxp98z34G4A3zTOLALeGY9AAAAABJRU5E
+        rkJggg==
+</value>
+  </data>
+  <data name="BOdustani.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="BOdustani.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BOdustani.Location" type="System.Drawing.Point, System.Drawing">
+    <value>827, 596</value>
+  </data>
+  <data name="BOdustani.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 42</value>
+  </data>
+  <data name="BOdustani.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="BOdustani.Text" xml:space="preserve">
+    <value>Odustani</value>
+  </data>
+  <data name="&gt;&gt;BOdustani.Name" xml:space="preserve">
+    <value>BOdustani</value>
+  </data>
+  <data name="&gt;&gt;BOdustani.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BOdustani.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BOdustani.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="LBrojServiranja.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LBrojServiranja.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Monotype Corsiva, 14.25pt, style=Italic</value>
+  </data>
+  <data name="LBrojServiranja.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LBrojServiranja.Location" type="System.Drawing.Point, System.Drawing">
+    <value>302, 427</value>
+  </data>
+  <data name="LBrojServiranja.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="LBrojServiranja.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 22</value>
+  </data>
+  <data name="LBrojServiranja.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="LBrojServiranja.Text" xml:space="preserve">
+    <value>Broj serviranja:</value>
+  </data>
+  <data name="&gt;&gt;LBrojServiranja.Name" xml:space="preserve">
+    <value>LBrojServiranja</value>
+  </data>
+  <data name="&gt;&gt;LBrojServiranja.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LBrojServiranja.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LBrojServiranja.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="TBBrojServiranja.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Monotype Corsiva, 12pt, style=Italic</value>
+  </data>
+  <data name="TBBrojServiranja.Location" type="System.Drawing.Point, System.Drawing">
+    <value>441, 427</value>
+  </data>
+  <data name="TBBrojServiranja.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 25</value>
+  </data>
+  <data name="TBBrojServiranja.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="TBBrojServiranja.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TBBrojServiranja.Name" xml:space="preserve">
+    <value>TBBrojServiranja</value>
+  </data>
+  <data name="&gt;&gt;TBBrojServiranja.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TBBrojServiranja.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TBBrojServiranja.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="CHBPotrebnoKuhanje.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CHBPotrebnoKuhanje.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Monotype Corsiva, 14.25pt, style=Italic</value>
+  </data>
+  <data name="CHBPotrebnoKuhanje.Location" type="System.Drawing.Point, System.Drawing">
+    <value>301, 400</value>
+  </data>
+  <data name="CHBPotrebnoKuhanje.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="CHBPotrebnoKuhanje.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 26</value>
+  </data>
+  <data name="CHBPotrebnoKuhanje.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="CHBPotrebnoKuhanje.Text" xml:space="preserve">
+    <value>Potrebno kuhanje</value>
+  </data>
+  <data name="&gt;&gt;CHBPotrebnoKuhanje.Name" xml:space="preserve">
+    <value>CHBPotrebnoKuhanje</value>
+  </data>
+  <data name="&gt;&gt;CHBPotrebnoKuhanje.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CHBPotrebnoKuhanje.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CHBPotrebnoKuhanje.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="LFotografija.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LFotografija.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Monotype Corsiva, 14.25pt, style=Italic</value>
+  </data>
+  <data name="LFotografija.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LFotografija.Location" type="System.Drawing.Point, System.Drawing">
+    <value>301, 452</value>
+  </data>
+  <data name="LFotografija.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="LFotografija.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 22</value>
+  </data>
+  <data name="LFotografija.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="LFotografija.Text" xml:space="preserve">
+    <value>Fotografija</value>
+  </data>
+  <data name="&gt;&gt;LFotografija.Name" xml:space="preserve">
+    <value>LFotografija</value>
+  </data>
+  <data name="&gt;&gt;LFotografija.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LFotografija.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LFotografija.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="BDodajFotografiju.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="BDodajFotografiju.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Mass Effect Game 123, 5.99999952pt</value>
+  </data>
+  <data name="BDodajFotografiju.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BDodajFotografiju.Location" type="System.Drawing.Point, System.Drawing">
+    <value>480, 492</value>
+  </data>
+  <data name="BDodajFotografiju.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 26</value>
+  </data>
+  <data name="BDodajFotografiju.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="BDodajFotografiju.Text" xml:space="preserve">
+    <value>Pretrazi fotografije</value>
+  </data>
+  <data name="&gt;&gt;BDodajFotografiju.Name" xml:space="preserve">
+    <value>BDodajFotografiju</value>
+  </data>
+  <data name="&gt;&gt;BDodajFotografiju.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BDodajFotografiju.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BDodajFotografiju.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="PBDodajFotografiju.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="PBDodajFotografiju.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="PBDodajFotografiju.InitialImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="PBDodajFotografiju.Location" type="System.Drawing.Point, System.Drawing">
+    <value>304, 477</value>
+  </data>
+  <data name="PBDodajFotografiju.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 161</value>
+  </data>
+  <data name="PBDodajFotografiju.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="PBDodajFotografiju.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;PBDodajFotografiju.Name" xml:space="preserve">
+    <value>PBDodajFotografiju</value>
+  </data>
+  <data name="&gt;&gt;PBDodajFotografiju.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PBDodajFotografiju.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;PBDodajFotografiju.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="BSpremiFotografiju.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="BSpremiFotografiju.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Mass Effect Game 123, 5.99999952pt</value>
+  </data>
+  <data name="BSpremiFotografiju.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BSpremiFotografiju.Location" type="System.Drawing.Point, System.Drawing">
+    <value>480, 524</value>
+  </data>
+  <data name="BSpremiFotografiju.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 25</value>
+  </data>
+  <data name="BSpremiFotografiju.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="BSpremiFotografiju.Text" xml:space="preserve">
+    <value>Dodaj receptu</value>
+  </data>
+  <data name="&gt;&gt;BSpremiFotografiju.Name" xml:space="preserve">
+    <value>BSpremiFotografiju</value>
+  </data>
+  <data name="&gt;&gt;BSpremiFotografiju.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BSpremiFotografiju.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BSpremiFotografiju.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 18</value>
+  </data>
+  <data name="$this.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1000, 650</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Consolas, 11.25pt</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>DodajReceptForm</value>
+  </data>
+  <data name="&gt;&gt;columnHeader1.Name" xml:space="preserve">
+    <value>columnHeader1</value>
+  </data>
+  <data name="&gt;&gt;columnHeader1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader2.Name" xml:space="preserve">
+    <value>columnHeader2</value>
+  </data>
+  <data name="&gt;&gt;columnHeader2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader3.Name" xml:space="preserve">
+    <value>columnHeader3</value>
+  </data>
+  <data name="&gt;&gt;columnHeader3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader4.Name" xml:space="preserve">
+    <value>columnHeader4</value>
+  </data>
+  <data name="&gt;&gt;columnHeader4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>DodajReceptForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
