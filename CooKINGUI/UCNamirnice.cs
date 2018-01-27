@@ -35,7 +35,7 @@ namespace CooKINGUI {
                 ListViewItem i = new ListViewItem(n.Naziv);
                 i.SubItems.Add((n.Mjera).ToString());
                 i.SubItems.Add((n.Vrsta).ToString());
-                if(n.Opca==true) i.SubItems.Add("Daaaaa");
+                if(n.Opca==true) i.SubItems.Add("Da");
                 else i.SubItems.Add("Ne");
                 LWSveNamirnice.Items.Add(i);
             }
